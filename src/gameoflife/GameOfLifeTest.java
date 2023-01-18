@@ -28,9 +28,9 @@ class GameOfLifeTest {
 
 	@Test
 	void test() {
-		GameOfLife gameOfLife1 = new GameOfLife();
-		gameOfLife1.makeFrames();
-		GameOfLife gameOfLife2 = new GameOfLife(100, 100,  200,  8);
+		//GameOfLife gameOfLife1 = new GameOfLife();
+		//gameOfLife1.makeFrames();
+		GameOfLife gameOfLife2 = new GameOfLife(500, 100,  100,  10);
 		gameOfLife2.makeFrames();
 	}
 	

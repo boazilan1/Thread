@@ -15,12 +15,9 @@ public class Main {
 	public static void main(String[] args) {
 		s_logger.log(Level.INFO, "main thread in main");
 		
-		tasq1();
-		
+		//tasq1();	
 	}
-	
-	
-
+		
 	private static void sumArrayTasks() {
 		int size = 1_000_001;
 		int[] arr = randomIntArr(size);
